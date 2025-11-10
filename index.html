@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NavPortfolio</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#"><img class="logo" src="asset/logo/mono-white.png" alt="logo" /> </a>
+      <nav>
+        <ul>
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">À Propos</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Projets</a></li>
+        </ul>
+      </nav>
+      <!--class="button"> -->
+      <a href="#contact" class="btn">Contact</a>
+      <div class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">À Propos</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Projets</a></li>
+        </ul>
+        <div class="divider"></div>
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+    </header>
+    <main>
+      <section class="home" id="home">
+        <div class="profil">
+          <img src="asset/imgProfil/FondFoncé.png" alt="Photo" />
+        </div>
+        <div class="home-content">
+          <h3>Bonjour, Moi c'est</h3>
+          <h1>Iris Hadj Mahfoud !</h1>
+          <h3>Et je suis <span class="text"></span></h3>
+          <p>
+            Étudiante en développement web, je crée des expériences numériques modernes et intuitives.
+            <br />
+            Front-end, back-end et design UI/UX : j’adore transformer des idées en sites web clairs, responsives et impactants.
+          </p>
+          <div class="home-sci">
+            <a href="https://www.facebook.com/iris.hadjmahfoud/" style="--i: 7"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/irishadjmahfoud/" style="--i: 8"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Osiris-IA" style="--i: 10"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="home-button">
+            <a href="#about" class="btn btn-box">Plus sur moi !</a>
+            <a href="#contact" class="btn btn-box">Contactez-moi</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-img"><img src="asset/imgProfil/PhotoResponsive.png" alt="Portrait of Iris Hadj Mahfoud" /></div>
+        <div class="about-text">
+          <h2>À<span> Propos</span></h2>
+          <h4>Developpeuse Web</h4>
+          <p>
+            Curieuse et créative, je suis en 2ᵉ année de développement web. J’aime <span>concevoir</span> des interfaces modernes, <span>coder</span> des sites fluides et <span>collaborer</span> sur
+            des projets qui allient technique et design.
+            <br />
+            Avec des projets comme Jaguar, Nike et un Pokédex sur Figma, j’ai développé des compétences en intégration, design interactif et travail d’équipe.
+            <br />
+            <span style="color: var(--cyan)">Mon but est clair : progresser en Full Stack et créer des solutions web qui marquent les esprits.</span>
+          </p>
+          <a href="asset/CV_Iris_Hadj_Mahfoud_ALT.pdf" target="_blank" class="btn btn-box">Voir CV</a>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <h2 class="sub-title">My <span>Services</span></h2>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-hand-fist" style="color: rgb(0, 238, 255)"></i>
+            <h2>Frontend & UI/UX</h2>
+            <p>Interfaces dynamiques et engageantes avec HTML, CSS, JavaScript, Bootstrap et Figma pour une expérience utilisateur optimale.</p>
+            <a href="https://github.com/Osiris-IA" target="_blank" class="btn read">Plus</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code" style="color: rgb(0, 238, 255)"></i>
+            <h2>Backend & Bases de données</h2>
+            <p>Développement dynamiques et robustes avec PHP, Python et SQL, pour des solutions fiables et évolutives.</p>
+            <a href="https://github.com/Osiris-IA" target="_blank" class="btn read">Plus</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-bullseye" style="color: rgb(0, 238, 255)"></i>
+            <h2>Stratégie digitale & Identité visuelle</h2>
+            <p>Accompagnement sur la création d’identités visuelles, la gestion de contenus et la stratégie numérique afin d’améliorer la visibilité et l’engagement.</p>
+            <a href="https://github.com/Osiris-IA" target="_blank" class="btn read">Plus</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <h1 class="sub-title">My <span>Skills</span></h1>
+        <div class="skills-list">
+          <div class="skills-content">
+            <div class="flex items-align mb-6 gap-4">
+              <i class="fa-solid fa-desktop" style="color: rgb(0, 238, 255)"></i>
+              <h2>Développement Web</h2>
+            </div>
+            <div class="flex-grow">
+              <ul>
+                <il>HTML5</il>
+                <il>CSS3</il>
+                <il>JavaScript</il>
+                <il>Figma</il>
+                <il>PHP</il>
+                <il>MySQL</il>
+                <il>Responsive Web Design</il>
+                <il>Python</il>
+                <il>Bootstrap</il>
+                <il>TailwindCSS</il>
+              </ul>
+            </div>
+          </div>
+          <div class="skills-content">
+            <div class="flex items-align mb-6 gap-4">
+              <i class="fa-solid fa-code" style="color: rgb(0, 238, 255)"></i>
+              <h2>Systèmes & DevOps</h2>
+            </div>
+            <div class="flex-grow">
+              <ul>
+                <il>Linux</il>
+                <il>Docker</il>
+                <il>SCRUM</il>
+                <il>Git</il>
+                <il>Github</il>
+                <il>CI/CD</il>
+                <il>n8n / Make</il>
+                <il>Shell</il>
+                <il>Hébergement Web</il>
+              </ul>
+            </div>
+          </div>
+
+          <div class="skills-content">
+            <div class="flex items-align mb-6 gap-4">
+              <i class="fa-solid fa-gears" style="color: rgb(0, 238, 255)"></i>
+              <h2>CMS / NoCode</h2>
+            </div>
+            <div class="flex-grow">
+              <ul>
+                <il>WordPress (DIVI, plugins, thèmes)</il>
+                <il>Shopify</il>
+                <il>Webflow</il>
+                <il>Nocode / LowCode</il>
+              </ul>
+            </div>
+          </div>
+
+          <div class="skills-content">
+            <div class="flex items-align mb-6 gap-4">
+              <i class="fa-solid fa-brain" style="color: rgb(0, 238, 255)"></i>
+              <h2>Data & Intelligence Artificielle</h2>
+            </div>
+            <div class="flex-grow">
+              <ul>
+                <il>Initiation Data</il>
+                <il>Agentic IA </il>
+                <il>Machine Learning</il>
+              </ul>
+            </div>
+          </div>
+          <div class="skills-content">
+            <div class="flex items-align mb-6 gap-4">
+              <i class="fa-solid fa-shield-halved" style="color: rgb(0, 238, 255)"></i>
+              <h2>Sécurité & Qualité</h2>
+            </div>
+            <div class="flex-grow">
+              <ul>
+                <il>Cryptanalyse</il>
+                <il>failles Web</il>
+                <il>RGPD et conformité web</il>
+                <il>QQuast</il>
+              </ul>
+            </div>
+          </div>
+          <div class="skills-content">
+            <div class="flex items-align mb-6 gap-4">
+              <i class="fa-solid fa-bullseye" style="color: rgb(0, 238, 255)"></i>
+              <h2>Marketing digital / Design Graphique & Digital</h2>
+            </div>
+            <div class="flex-grow">
+              <ul>
+                <il>Social média management</il>
+                <il>SEO</il>
+                <il>Veille & recherche</il>
+                <il>Illustrator</il>
+                <il>Photoshop</il>
+                <il>Indesign</il>
+                <il>After Effect</il>
+                <il>Premiere Pro</il>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project" id="project">
+        <h2 class="sub-title">Latest<span>Projects</span></h2>
+        <article class="portfolio-content">
+          <div class="row">
+            <img src="asset/sectionProject/img1.png" />
+            <div class="layer">
+              <div class="title">
+                <i class="fa-solid fa-terminal"></i>
+                <h5>JAGUAR</h5>
+              </div>
+              <p class="text">Développement Web</p>
+              <p>Intégration et design front-end pour un site élégant et moderne, renforçant l’image digitale de la marque.</p>
+
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <a href="https://github.com/Osiris-IA/jaguar-landing-page" class="btn-4">Source code</a>
+              <!-- – Refonte de site web -->
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="asset/sectionProject/img2.png" />
+            <div class="layer">
+              <div class="title">
+                <i class="fa-solid fa-terminal"></i>
+                <h5>NIKE</h5>
+              </div>
+              <p class="text">Développement Web</p>
+              <p>Collaboration sur une page produit dynamique et animée, axée sur la performance et l’interactivité.</p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <a href="#" class="btn-4">Source code</a>
+              <!-- – Landing page interactive -->
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="asset/sectionProject/img3.png" />
+            <div class="layer">
+              <div class="title">
+                <i class="fa-solid fa-terminal"></i>
+                <h5>Pokédex</h5>
+              </div>
+              <p class="text">UX</p>
+              <p>Réalisation d’un design gamifié et interactif, démontrant mes compétences en UI/UX et ma créativité.</p>
+              <ul>
+                <li>Figma</li>
+              </ul>
+              <a href="https://www.figma.com/proto/qPUW4ClLo9smd6ubfE1OIG/Pok%C3%A9dex-Figma?node-id=414-1324&t=DVmza9jWRLCAnVEw-1" class="btn-4">Prototype</a>
+              <!-- – Prototype Figma -->
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact-text">
+          <h2>Contact <span>Me</span></h2>
+          <h4>Vous avez une idée, un projet ou simplement envie d’échanger ?</h4>
+          <p>Je suis disponible pour discuter, collaborer ou répondre à vos questions.</p>
+
+          <div class="contact-list">
+            <ul>
+              <li>
+                <i class="fa-solid fa-paper-plane"></i>
+                <a href="mailto:irishadj6@gmail.com">irishadj6@gmail.com</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:+33620292324">06 20 29 23 24</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-icons">
+            <a href="https://www.facebook.com/iris.hadjmahfoud/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/irishadjmahfoud/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Osiris-IA"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <ul>
+        <li>Codé par Iris Hadj Mahfoud</li>
+        <li>2025/2026</li>
+      </ul>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+      const MenuButton = document.querySelector(".menu-btn");
+      const MenuButtonIcon = document.querySelector(".menu-btn i");
+      const Menu = document.querySelector(".menu");
+
+      MenuButton.onclick = function () {
+        Menu.classList.toggle("open");
+        const isOpen = Menu.classList.contains("open");
+        MenuButtonIcon.classList = isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars";
+      };
+    </script>
+  </body>
+</html>
