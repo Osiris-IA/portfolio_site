@@ -29,7 +29,7 @@ Ce portfolio a été créé pour présenter mon travail et mes réalisations de 
 
 ## Links 
 
-[Website](#http://127.0.0.1:5500/index.html#services).
+[Website](http://127.0.0.1:5500/index.html#services).
 
-[CardBusiness](#https://osiris-ia.github.io/CardBusiness/).
+[CardBusiness](https://osiris-ia.github.io/CardBusiness/).
 
