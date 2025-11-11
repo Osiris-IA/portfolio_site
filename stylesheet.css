@@ -468,7 +468,7 @@ body > header {
     margin: 15px 0 25px;
   }
   & p {
-    font-size: 1.rem;
+    font-size: 1rem;
     line-height: 1.6;
     color: aliceblue;
     font-weight: 400;
@@ -799,7 +799,6 @@ body > header {
     transform: translateY(-10px);
     background-color: #000444;
   }
-  
 }
 
 .layer {
@@ -879,8 +878,6 @@ body > header {
     border: solid 0.5px var(--cyan);
     padding: 5px 10px;
     border-radius: 5px 5px;
-
-  
   }
 }
 
@@ -979,8 +976,6 @@ body > header {
   }
 }
 .contact-text {
-
-  
   h2 {
     font-size: 3rem;
     line-height: 1.2;
@@ -999,8 +994,6 @@ body > header {
     margin-top: 10px;
     margin-bottom: 30px;
   }
-  
-  
 }
 
 .contact-list ul {
