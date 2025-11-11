@@ -425,7 +425,7 @@ body > header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
   color: var(--white);
   padding: 8rem 10%;
 }
@@ -442,9 +442,9 @@ body > header {
   border-radius: 8px;
   margin: 20% 0 20% 0; */
   & img {
-    width: 300px;
+    all: unset;
+    width: 25rem;
     max-width: 100%;
-    border-radius: 50%;
     transition: transform 2s ease;
     transform-origin: center;
     &:hover {
@@ -468,7 +468,7 @@ body > header {
     margin: 15px 0 25px;
   }
   & p {
-    font-size: 1.2rem;
+    font-size: 1.rem;
     line-height: 1.6;
     color: aliceblue;
     font-weight: 400;
@@ -480,6 +480,9 @@ body > header {
     &:hover {
       color: var(--cyan);
     }
+  }
+  a {
+    font-size: 20px;
   }
 }
 
@@ -961,18 +964,23 @@ body > header {
 /*------------------ Contact -------------------*/
 
 .contact {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
   justify-content: center;
-  text-align: center;
-  gap: 2rem;
-
+  align-items: center;
+  text-align: start;
+  flex-direction: row-reverse;
+  gap: 4rem;
   padding: 60px 20px;
   /* padding-left: 30px;
   margin-top: 130px; */
   color: var(--white);
+  img {
+    width: 15rem;
+  }
 }
 .contact-text {
+
+  
   h2 {
     font-size: 3rem;
     line-height: 1.2;
@@ -991,6 +999,8 @@ body > header {
     margin-top: 10px;
     margin-bottom: 30px;
   }
+  
+  
 }
 
 .contact-list ul {
@@ -1040,6 +1050,13 @@ body > header {
     background: #0ef;
     color: #000;
     box-shadow: 0 0 20px #0ef;
+  }
+}
+
+@media (max-width: 990px) {
+  .contact {
+    flex-direction: column;
+    text-align: center;
   }
 }
 
