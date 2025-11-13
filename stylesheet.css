@@ -29,7 +29,7 @@ body {
   color: var(--blue);
   background-color: var(--cyan);
   padding: 0.5rem 1.2rem;
-  border-radius: 8px;
+  border-radius: 20px 20px;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
@@ -258,6 +258,7 @@ body > header {
   max-width: 600px;
   position: relative;
   z-index: 2;
+  text-align: start;
 
   & h3 {
     font-size: 32px;
@@ -427,7 +428,7 @@ body > header {
   align-items: center;
   gap: 4rem;
   color: var(--white);
-  padding: 8rem 10%;
+  padding: 0rem 10% 8rem 10%;
 }
 
 .about-img {
@@ -632,13 +633,16 @@ body > header {
   font-size: 20px;
   line-height: 1.4rem;
   margin-bottom: 0;
-  padding: 90px;
+  /* padding: 90px; */
+  .sub-title {
+    padding: 2rem;
+  }
 }
 
 .skills-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(359px, 2fr));
-  grid-gap: 40px;
+  grid-gap: 30px;
   margin-top: 50px;
   color: var(--white);
 
@@ -660,10 +664,10 @@ body > header {
     display: inline-block;
   }
 
-  & .skills-content:hover {
+  /* & .skills-content:hover {
     transform: translateY(-10px);
     background-color: #000444;
-  }
+  } */
 }
 
 .skills-content {
@@ -674,27 +678,7 @@ body > header {
   border-right: 10px;
   border-radius: 20px;
   transition: background 0.5s, transform 0.5s;
-  box-shadow: 1px 1px 20px #040270, 1px 1px 40px #040270;
-}
-
-.flex {
-  display: flex;
-}
-
-.items-align {
-  align-items: center;
-}
-.justify-between {
-  justify-content: space-between;
-}
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-.gap-4 {
-  gap: 1rem;
-}
-.gap-3 {
-  gap: 0.75rem;
+  /* box-shadow: 1px 1px 20px #040270, 1px 1px 40px #040270; */
 }
 
 .flex-grow ul {
@@ -704,12 +688,30 @@ body > header {
   font-weight: 500;
   line-height: 0.5rem;
   gap: 20px;
+
   il {
     padding: 1rem;
     background-color: #040270;
     border-radius: 10px 10px;
     letter-spacing: 1px;
+    transition: transform 0.5s;
   }
+  il:hover {
+    transform: scale(1.09);
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .section {
@@ -757,7 +759,7 @@ body > header {
   color: aliceblue;
   font-size: 20px;
   line-height: 1.4rem;
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
   padding: 90px;
   h2 {
     font-size: 60px;
@@ -774,7 +776,7 @@ body > header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(359px, auto));
   gap: 2rem;
-  margin-top: 50px;
+  margin-top: 20px;
   color: var(--white);
 }
 .row {
