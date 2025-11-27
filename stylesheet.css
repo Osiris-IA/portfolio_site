@@ -492,7 +492,7 @@ body > header {
   .about {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     padding: 2rem 5%;
   }
 
@@ -512,12 +512,10 @@ body > header {
     }
     p {
       font-size: 1rem;
-      margin: 0 auto;
+      margin: 2rem 0;
       max-width: 90%;
     }
-    a {
-      margin-top: 1rem;
-    }
+
   }
 }
 
@@ -599,18 +597,19 @@ body > header {
   .services {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     padding: 6rem 5%;
     h2 {
       font-size: 3rem;
+      text-align: left;
     }
   }
   .services-list div {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     p {
-      width: 70%;
+      width: 95%;
       line-height: 1.5rem;
     }
     a {
@@ -622,7 +621,7 @@ body > header {
 }
 @media (max-width: 576px) {
   .services-list div a {
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -1051,7 +1050,8 @@ body > header {
 @media (max-width: 990px) {
   .contact {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
+
   }
 }
 
