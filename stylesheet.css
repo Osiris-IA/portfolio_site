@@ -694,6 +694,8 @@ body > header {
     border-radius: 10px 10px;
     letter-spacing: 1px;
     transition: transform 0.5s;
+    text-decoration: none;
+    list-style: none;
   }
   il:hover {
     transform: scale(1.09);
@@ -871,6 +873,7 @@ body > header {
       background-color: rgba(192, 132, 252, 0.138);
       padding: 5px 10px;
       border-radius: 5px 5px;
+      text-decoration: none;
     }
   }
   a {
